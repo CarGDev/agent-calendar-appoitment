@@ -2,6 +2,8 @@
 
 An intelligent appointment scheduling system that uses AI to handle appointment requests, manage availability, and generate calendar events. The system processes natural language requests, checks availability, and maintains appointments in a JSON file.
 
+![alt text](assets/ai-agent.gif)
+
 ## Features
 
 - 🤖 AI-powered appointment request processing

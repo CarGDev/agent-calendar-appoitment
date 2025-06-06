@@ -113,5 +113,83 @@
       }
     },
     "attendees": []
+  },
+  {
+    "parsed_date": "25/06/05 23:08",
+    "status": "available",
+    "message": "Your appointment is confirmed for 25/06/05 at 23:08.",
+    "calendar_event": {
+      "summary": "Appointment with Carlos",
+      "description": "Discuss app progress and AI integration.",
+      "location": "Zoom",
+      "start": {
+        "dateTime": "2025-06-05T23:08:00-05:00",
+        "timeZone": "America/Bogota"
+      },
+      "end": {
+        "dateTime": "2025-06-05T23:38:00-05:00",
+        "timeZone": "America/Bogota"
+      },
+      "attendees": [
+        {
+          "email": "carlos@example.com"
+        },
+        {
+          "email": "teammate@example.com"
+        }
+      ],
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 30
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parsed_date": "06/06/30 23:08",
+    "status": "available",
+    "message": "Your appointment is confirmed for 06/06/30 at 23:08. I suggest rescheduling between 19:00 and 22:58 if preferred.",
+    "calendar_event": {
+      "summary": "Appointment with Carlos",
+      "description": "Discuss app progress and AI integration.",
+      "location": "Zoom",
+      "start": {
+        "dateTime": "2025-06-06T19:00:00-05:00",
+        "timeZone": "America/Bogota"
+      },
+      "end": {
+        "dateTime": "2025-06-06T23:00:00-05:00",
+        "timeZone": "America/Bogota"
+      },
+      "attendees": [
+        {
+          "email": "carlos@example.com"
+        },
+        {
+          "email": "teammate@example.com"
+        }
+      ],
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 30
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      }
+    }
   }
 ]
