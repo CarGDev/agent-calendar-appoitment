@@ -1,0 +1,117 @@
+[
+  {
+    "parsed_date": "25/06/05 22:57",
+    "status": "available",
+    "message": "Your appointment is confirmed for 25/06/05 at 22:57.",
+    "calendar_event": {
+      "summary": "Appointment with John Doe",
+      "description": "Discussions on AI integration and project updates.",
+      "location": "Zoom",
+      "start": {
+        "dateTime": "2025-06-05T18:57:00-05:00",
+        "timeZone": "America/Bogota"
+      },
+      "end": {
+        "dateTime": "2025-06-05T19:57:00-05:00",
+        "timeZone": "America/Bogota"
+      }
+    }
+  },
+  {
+    "parsed_date": "26/05/31 17:57",
+    "status": "available",
+    "message": "Your appointment is confirmed for 26/05/31 at 17:57.",
+    "calendar_event": {
+      "summary": "Appointment with Carlos",
+      "description": "Discuss app progress and AI integration.",
+      "location": "Zoom",
+      "start": {
+        "dateTime": "2026-05-31T17:57:00-05:00",
+        "timeZone": "America/Bogota"
+      },
+      "end": {
+        "dateTime": "2026-05-31T18:27:00-05:00",
+        "timeZone": "America/Bogota"
+      },
+      "attendees": [
+        {
+          "email": "carlos@example.com"
+        },
+        {
+          "email": "teammate@example.com"
+        }
+      ],
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 30
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parsed_date": "25/06/30 22:58",
+    "status": "taken",
+    "message": "Your appointment is already taken. I suggest rescheduling at least two hours earlier.",
+    "calendar_event": {
+      "summary": "Appointment with John Doe",
+      "description": "Discussions on AI integration and project updates.",
+      "location": "Zoom",
+      "start": {
+        "dateTime": "2025-06-30T18:57:00-05:00",
+        "timeZone": "America/Bogota"
+      },
+      "end": {
+        "dateTime": "2025-06-30T19:57:00-05:00",
+        "timeZone": "America/Bogota"
+      },
+      "attendees": [
+        {
+          "email": "carlos@example.com"
+        },
+        {
+          "email": "teammate@example.com"
+        }
+      ],
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "email",
+            "minutes": 30
+          },
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      }
+    }
+  },
+  {
+    "parsed_date": "25/06/06 22:58",
+    "status": "available",
+    "message": "Your appointment is confirmed for 25/06/06 at 22:58.",
+    "calendar_event": {
+      "summary": "Appointment with John Doe",
+      "description": "Discussions on AI integration and project updates.",
+      "location": "Zoom",
+      "start": {
+        "dateTime": "2025-06-06T22:58:00-05:00",
+        "timeZone": "America/Bogota"
+      },
+      "end": {
+        "dateTime": "2025-06-06T23:58:00-05:00",
+        "timeZone": "America/Bogota"
+      }
+    },
+    "attendees": []
+  }
+]
